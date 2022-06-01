@@ -43,7 +43,9 @@
     "unplugin-auto-import": "^0.7.1",
     "unplugin-vue-components": "^0.19.5",
     "vite": "^2.7.2",
-    "vue-tsc": "^0.29.8"
+    "vite-plugin-windicss": "^1.8.4",
+    "vue-tsc": "^0.29.8",
+    "windicss": "^3.5.4"
   },
   "husky": {
     "hooks": {

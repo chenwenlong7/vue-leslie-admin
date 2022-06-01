@@ -5,6 +5,7 @@ import path from "path";
 import viteCompression from "vite-plugin-compression";
 import AutoImport from "unplugin-auto-import/vite";
 import Components from "unplugin-vue-components/vite";
+import WindiCSS from "vite-plugin-windicss";
 import { AntDesignVueResolver } from "unplugin-vue-components/resolvers";
 
 // https://vitejs.dev/config/
@@ -56,6 +57,8 @@ export default defineConfig({
         }),
       ],
     }),
+    //windIcss
+    WindiCSS(),
   ],
   // 配置别名
   resolve: {
